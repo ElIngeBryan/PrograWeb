@@ -1,0 +1,134 @@
+/* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Creepster", system-ui;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos del header */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 10px;
+    background-color: #000000;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido del logo */
+    align-items: center; /* Centra verticalmente el contenido del logo */
+    width: 100%; /* Asegura que el logo ocupe todo el ancho disponible si es necesario */
+}
+
+.logo h1 {
+    color: #3cff00cb;
+    font-family: "Creepster", system-ui;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #3cff00cb;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 20px 20px;
+    background-image: url('https://www.sitio-imagen-ejemplo.com/halloween-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/*
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #3cff00cb;
+    color: #ffffff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #3cff00cb;
+    transform: scale(1.1);
+}
+*/
+
+/* Animaciones de la sección de eventos */
+.activities {
+    padding: 50px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.activities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #3cff00cb;
+}
+
+.card {
+    background-color: #292929;
+    border: 1px solid #3cff00cb;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+
